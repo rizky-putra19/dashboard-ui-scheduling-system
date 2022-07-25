@@ -1,0 +1,20 @@
+.date-selected {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.date-selected .date-active {
+  margin: 2px 25px;
+  font-size: medium;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.date-selected .date-disabled {
+  margin: 2px 25px;
+  font-size: medium;
+  font-weight: bold;
+  color: turquoise;
+  word-spacing: 2px;
+}

@@ -1,0 +1,10 @@
+.button-header {
+ display: inline;
+ background-color: beige;
+}
+
+.button-shift {
+   float: right;
+   margin-top: -47px;
+   margin-right: 10px;
+}
