@@ -141,10 +141,10 @@ const Shift = () => {
         setErrMsg("");
         const { results } = await getShifts(startDate, endDate);
         setRows(results);
+        await handleDateValue(startDate, endDate);
         if (results.length <= 0) {
           setIsPublish(true);
         }
-        handleDateValue(startDate, endDate);
       } catch (error) {
         const message = getErrorMessage(error);
         setErrMsg(message);
